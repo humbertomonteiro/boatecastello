@@ -10,6 +10,10 @@ header {
     animation: slideDown .5s ease forwards;
     position: relative;
     z-index: 5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 
@@ -44,20 +48,42 @@ header svg {
     display: none;
 }
 
+
+@media (max-width: 769px) {
+    header .navbar a {
+        font-size: .8rem;
+    }
+}
+
 @media (max-width: 580px) {
 
     header {
         justify-content: space-between;
+        gap: 5px;
+        padding: 0 5px;
     }
 
-    header .navbar {
-        display: none;
+    header .logo {
+        font-size: 1.2rem;
     }
+
+    
+    header .navbar {
+    width: 80%;
+    }
+
+    header .navbar a {
+        font-size: .7rem;
+    }
+
+    /* header .navbar {
+        display: none;
+    } */
 
     header svg {
         display: flex;
     }
-
+/* 
     header .navbarMobile {
         width: 150px;
         height: 250px;
@@ -72,5 +98,5 @@ header svg {
         background-color: var(--black);
         opacity: 0;
         animation: slideLeft .8s ease forwards;
-    }
+    } */
 }

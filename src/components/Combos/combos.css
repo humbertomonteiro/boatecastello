@@ -3,7 +3,7 @@
     justify-content: space-around;
     align-items: center;
     gap: 10px;
-    margin: 20px 0 90px 0;
+    margin: 20px 0 250px 0;
 }
 
 .box-combo {
@@ -19,8 +19,12 @@
     color: var(--white);
     display: flex;
     flex-direction: column;
-    padding: 10px 40px;
-    font-size: .8rem;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 50px;
+    font-size: .9rem;
+    height: 55%;
+    margin-bottom: 5px;
 }
 
 .box-combo .text-combo p,
@@ -30,7 +34,6 @@
 
 .box-combo .text-combo strong {
     font-size: 1rem;
-    margin-top: 5px;
 }
 
 .box-combo a {
@@ -49,11 +52,23 @@
     background-color: var(--tertiary);
 }
 
-.box-combo img {
+.img-combo {
+    width: 100%;
+    height: 140%;
+    padding: 10px;
+}
+
+.img-combo img {
     position: relative;
+    width: 100%;
+    height: 100%;
 }
 
 @media (max-width: 760px) {
+
+    .boxes-combos {
+        margin: 20px 0 200px 0;
+    }
 
     .box-combo {
         min-width: 120px;
@@ -70,7 +85,7 @@
 @media (max-width: 480px) {
 
     .boxes-combos {
-        margin: 20px 0 80px 0;
+        margin: 20px 0 150px 0;
         gap: 3px;
     }
 
@@ -82,7 +97,7 @@
 
     .box-combo .text-combo {
         padding: 5px;
-        font-size: .6rem;
+        font-size: .5rem;
     }
 
     .box-combo .text-combo strong {
@@ -90,6 +105,11 @@
     }
 
     .box-combo a {
+        padding: 2px;
         font-size: .8rem;
+    }
+
+    .img-combo {
+        height: 100%;
     }
 }

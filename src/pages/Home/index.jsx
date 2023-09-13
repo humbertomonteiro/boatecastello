@@ -29,7 +29,6 @@ export default function Home() {
             <Menu />
             <div className="space"></div>
             <Contacts />
-            <div className="space"></div>
         </main>
     )
 }

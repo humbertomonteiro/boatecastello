@@ -18,7 +18,7 @@ export default function Contacts() {
                         <BsWhatsapp /> (85) 9.9285-9449
                     </a>
                 </div> 
-                <div data-aos='fade-up'>
+                <div className='img' data-aos='fade-up'>
                     <img src={require('../../assets/imgs/contact.png')} alt="" />
                 </div>
             </div>

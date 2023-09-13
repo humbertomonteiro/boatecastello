@@ -1,6 +1,6 @@
 import './header.css'
 import { Link } from 'react-router-dom'
-import { HiBars3BottomRight } from 'react-icons/hi2'
+// import { HiBars3BottomRight } from 'react-icons/hi2'
 import { useState } from 'react'
 
 export default function Header() {
@@ -8,7 +8,8 @@ export default function Header() {
     const [ showMenu, setShowMenu ] = useState(false)
 
     function handleShowMenu() {
-        setShowMenu(!showMenu)
+        // setShowMenu(!showMenu)
+        window.scroll(0,0)
     }   
 
     return (
@@ -25,7 +26,7 @@ export default function Header() {
                 <Link onClick={handleShowMenu} to='/contacts'>Contatos</Link>
             </nav>
 
-            <HiBars3BottomRight onClick={handleShowMenu}/>
+            {/* <HiBars3BottomRight onClick={handleShowMenu}/> */}
         </header>
     )
 }

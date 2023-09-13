@@ -17,16 +17,13 @@ export default function Carousel() {
             pagination={true}
             autoplay>
                 <SwiperSlide>
-                    <img src={require('../../assets/imgs/carousel1.png')} alt="img1" />
+                    <img src={require('../../assets/imgs/slide-1.png')} alt="img1" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={require('../../assets/imgs/carousel1.png')} alt="img1" />
+                    <img src={require('../../assets/imgs/slide-2.png')} alt="img1" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={require('../../assets/imgs/carousel1.png')} alt="img1" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src={require('../../assets/imgs/carousel1.png')} alt="img1" />
+                    <img src={require('../../assets/imgs/slide-3.png')} alt="img1" />
                 </SwiperSlide>
             </Swiper>
         </article>
