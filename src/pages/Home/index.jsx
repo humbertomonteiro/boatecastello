@@ -1,34 +1,35 @@
-import './home.css'
-import Carousel from '../../components/Carousel'
-import Combos from '../../components/Combos'
-import Events from '../Events'
-import Location from '../Location'
-import Menu from '../Menu'
-import Contacts from '../Contacts'
+import "./home.css";
+import Carousel from "../../components/Carousel";
+import Combos from "../../components/Combos";
+import Events from "../Events";
+import TextIntroduction from "../../components/TextIntroduction";
+import Location from "../Location";
+import Menu from "../Menu";
+import Contacts from "../Contacts";
 
-import Aos from 'aos'
-import 'aos/dist/aos.css'
+import Aos from "aos";
+import "aos/dist/aos.css";
 
-import { useEffect } from 'react'
+import { useEffect } from "react";
 
 export default function Home() {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
 
-    useEffect(() => {
-        Aos.init({ duration: 1000 })
-    }, [])
-
-    return (
-        <main>
-            <Carousel />
-            <Combos />
-            <div className="space"></div>
-            <Events />
-            <div className="space"></div>
-            <Location />
-            <div className="space"></div>
-            <Menu />
-            <div className="space"></div>
-            <Contacts />
-        </main>
-    )
+  return (
+    <main>
+      <Carousel />
+      <Combos />
+      <TextIntroduction />
+      <div className="space"></div>
+      <Menu />
+      <div className="space"></div>
+      <Events />
+      <div className="space"></div>
+      <Location />
+      <div className="space"></div>
+      <Contacts />
+    </main>
+  );
 }

@@ -1,57 +1,50 @@
-import './menu.css'
-import { useState } from 'react'
+import "./menu.css";
 
 export default function Menu() {
+  return (
+    <section className="container-menu">
+      <div className="title">
+        <h1 data-aos="fade-left">CARDÁPIO</h1>
+      </div>
 
-    const [ drinks, setDrinks ] = useState(true)
-    const [ foods, setFoods ] = useState(false)
-
-    function handleDrinks() {
-        setDrinks(!drinks)
-        setFoods(!foods)
-    }
-
-    function handleFoods() {
-        setDrinks(!drinks)
-        setFoods(!foods)
-    }
-
-    return(
-        <main className='container-menu'>
-
-            <div className="title">
-                <h1 data-aos='fade-left'>CARDÁPIO</h1>
-            </div>
-            
-            <div className="menu">
-                <div data-aos='fade-right' className="buttons">
-
-                    <button 
-                    onClick={handleDrinks}
-                    className={drinks ? 'active' : ''}>
-                        BEBIDAS
-                    </button>
-
-                    <button
-                    onClick={handleFoods}
-                    className={foods ? 'active' : ''}>
-                        PETISCOS
-                    </button>
-
-                </div>
-
-                <div data-aos='fade-up'>
-                    {
-                        drinks ? 
-
-                        <img src={require('../../assets/imgs/menu.png')} alt="drinks" />
-
-                        : 
-
-                        <img src={require('../../assets/imgs/combo1.png')} alt="drinks" />
-                    }
-                </div>
-            </div>
-        </main>
-    )
+      <div className="menu">
+        <a
+          data-aos="fade-left"
+          href={require("../../assets/pdf/CARDÁPIO.pdf")}
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src={require("../../assets/imgs/menu/petiscos.jpeg")}
+            alt="camarão"
+          />
+          <h3>Petiscos</h3>
+        </a>
+        <a
+          data-aos="fade-up"
+          href={require("../../assets/pdf/CARDÁPIO.pdf")}
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src={require("../../assets/imgs/menu/feijão.jpeg")}
+            alt="camarão"
+          />
+          <h3>Pratos</h3>
+        </a>
+        <a
+          href={require("../../assets/pdf/CARDÁPIO.pdf")}
+          target="_blank"
+          rel="noreferrer"
+          data-aos="fade-right"
+        >
+          <img
+            src={require("../../assets/imgs/menu/drinks.jpeg")}
+            alt="camarão"
+          />
+          <h3>Drinks</h3>
+        </a>
+      </div>
+    </section>
+  );
 }
