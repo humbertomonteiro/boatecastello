@@ -4,7 +4,7 @@ export default function Menu() {
   return (
     <section className="container-menu">
       <div className="title">
-        <h1 data-aos="fade-left">CARDÁPIO</h1>
+        <h1 data-aos="fade-left">Cardápio</h1>
       </div>
 
       <div className="menu">

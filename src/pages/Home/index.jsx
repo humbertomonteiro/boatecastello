@@ -6,6 +6,7 @@ import TextIntroduction from "../../components/TextIntroduction";
 import Location from "../Location";
 import Menu from "../Menu";
 import Contacts from "../Contacts";
+import Footer from "../../components/Footer";
 
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -30,6 +31,8 @@ export default function Home() {
       <Location />
       <div className="space"></div>
       <Contacts />
+      <div className="space"></div>
+      <Footer />
     </main>
   );
 }

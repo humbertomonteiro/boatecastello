@@ -38,8 +38,8 @@ export default function Events() {
 
   return (
     <section className="container-events">
-      <div className="title">
-        <h1 data-aos="fade-left">Eventos</h1>
+      <div className="title-2">
+        <h1 data-aos="fade-right">Eventos</h1>
       </div>
 
       {/* {title !== "" || currentEvents.length >= 1 ? (

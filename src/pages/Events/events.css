@@ -6,23 +6,6 @@
   margin-top: 100px;
 }
 
-.title {
-  width: 100%;
-  overflow: hidden;
-}
-
-.title h1 {
-  width: 100%;
-  margin-left: 110px;
-  border: 4px solid var(--primary);
-  border-radius: 50px;
-  padding: 5px 100px;
-  color: var(--white);
-  font-size: 4rem;
-  font-family: var(--font-1);
-  margin-bottom: 10px;
-}
-
 /* .events {
   width: 100%;
   display: flex;
@@ -124,17 +107,4 @@
 
 .event-text .btn:hover {
   background-color: var(--secundary);
-}
-
-@media (max-width: 768px) {
-  .title h1 {
-    margin-left: 50px;
-  }
-}
-
-@media (max-width: 480px) {
-  .title h1,
-  .event-text h2 {
-    font-size: 2rem;
-  }
 }

@@ -5,7 +5,7 @@ export default function TextIntroduction() {
     <div className="container-introduction">
       <div className="introduction">
         <div data-aos="fade-up" className="introduction-text">
-          <h2>Diverção</h2>
+          <h2>Diversão</h2>
           <p>
             Descubra o mundo de pura diversão na Boate Castello em Fortaleza!
           </p>
