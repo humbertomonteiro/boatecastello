@@ -67,6 +67,7 @@
 
 .event {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   width: 1000px;
   max-width: 95%;

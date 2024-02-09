@@ -27,17 +27,19 @@
   margin-left: 110px;
 }
 
-.title-2 h1 {
-}
-
 @media (max-width: 768px) {
   .title h1 {
     margin-left: 50px;
   }
+
+  .title-2 {
+    margin-left: 150px;
+  }
 }
 
 @media (max-width: 480px) {
-  .title h1 {
+  .title h1,
+  .title-2 h1 {
     font-size: 2rem;
   }
 }
