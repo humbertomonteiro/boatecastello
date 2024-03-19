@@ -7,11 +7,15 @@ export default function Contacts() {
       <div className="contacts">
         <div data-aos="fade-up" className="links">
           <h1 data-aos="fade-right">CONTATOS</h1>
-          <a href="instagram">
+          <a
+            href="https://www.instagram.com/castellofortaleza/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <BsInstagram /> /CASTELLOFORTALEZA
           </a>
 
-          <a href="whatsapp">
+          <a href="https://wa.me/85992859449" target="_blank" rel="noreferrer">
             <BsWhatsapp /> (85) 9.9285-9449
           </a>
         </div>

@@ -18,6 +18,14 @@ export default function TextIntroduction() {
           <p>
             Venha viver noites inesquecíveis, onde a animação não tem limites.
           </p>
+          <a
+            className="btn"
+            href="https://wa.me/85992859449"
+            target="_blank"
+            rel="noreferrer"
+          >
+            VENHA NOS CONHECER
+          </a>
         </div>
         <div data-aos="fade-down" className="introduction-img">
           <img src={require("../../assets/imgs/girls.jpeg")} alt="" />

@@ -72,10 +72,10 @@ export default function Events() {
         ))} */}
       <div className="event">
         <div data-aos="fade-down" className="event-img">
-          <img src={require("../../assets/imgs/events/event-3.jpeg")} alt="" />
+          <img src={require("../../assets/imgs/events/event-4.jpeg")} alt="" />
         </div>
         <div data-aos="fade-up" className="event-text">
-          <h2>BALADA HOT</h2>
+          <h2>CASTELO DAS COELHINHAS</h2>
           <p>
             Casais e solteiros(as) desfrutarem de noites empolgantes em
             Fortaleza.
@@ -85,7 +85,12 @@ export default function Events() {
             Todos são bem-vindos para serem parte dessas experiências memoráveis
             na Boate Castello!
           </p>
-          <a className="btn" href="wa.me/">
+          <a
+            className="btn"
+            href="https://wa.me/85992859449"
+            target="_blank"
+            rel="noreferrer"
+          >
             COMPRE AGORA
           </a>
         </div>
