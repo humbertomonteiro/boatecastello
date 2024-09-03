@@ -1,6 +1,6 @@
 import "./home.css";
 import Carousel from "../../components/Carousel";
-import Combos from "../../components/Combos";
+// import Combos from "../../components/Combos";
 import Events from "../Events";
 import TextIntroduction from "../../components/TextIntroduction";
 import Location from "../Location";
@@ -21,7 +21,7 @@ export default function Home() {
   return (
     <main>
       <Carousel />
-      <Combos />
+      {/* <Combos /> */}
       <TextIntroduction />
       <div className="space"></div>
       <Menu />

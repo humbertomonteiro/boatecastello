@@ -16,7 +16,7 @@ export default function Menu() {
         >
           <img
             src={require("../../assets/imgs/menu/petiscos.jpeg")}
-            alt="camarão"
+            alt="petiscos"
           />
           <h3>Petiscos</h3>
         </a>
@@ -40,7 +40,7 @@ export default function Menu() {
         >
           <img
             src={require("../../assets/imgs/menu/drinks.jpeg")}
-            alt="camarão"
+            alt="drinks"
           />
           <h3>Drinks</h3>
         </a>

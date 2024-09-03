@@ -72,10 +72,13 @@ export default function Events() {
         ))} */}
       <div className="event">
         <div data-aos="fade-down" className="event-img">
-          <img src={require("../../assets/imgs/events/event-4.jpeg")} alt="" />
+          <img
+            src={require("../../assets/imgs/events/castello.jpg")}
+            alt="Imagem do panfleto, do evento."
+          />
         </div>
         <div data-aos="fade-up" className="event-text">
-          <h2>CASTELO DAS COELHINHAS</h2>
+          <h2>EVENTOS IMPERDÍVEIS</h2>
           <p>
             Casais e solteiros(as) desfrutarem de noites empolgantes em
             Fortaleza.
@@ -91,7 +94,7 @@ export default function Events() {
             target="_blank"
             rel="noreferrer"
           >
-            COMPRE AGORA
+            VER PRÓXIMO EVENTO
           </a>
         </div>
       </div>

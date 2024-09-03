@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 2rem;
 }
 
 .introduction {
@@ -47,7 +47,7 @@
 .introduction-text .btn {
   background-color: var(--primary);
   color: var(--text);
-  padding: 10px 90px;
+  padding: 10px 50px;
   border-radius: 20px;
   position: relative;
   top: 20px;
@@ -58,6 +58,10 @@
   background-color: var(--secundary);
 }
 @media (max-width: 480px) {
+  .container-introduction {
+    margin-top: 0rem;
+  }
+
   .introduction-text h2 {
     font-size: 2rem;
     margin-left: 50px;

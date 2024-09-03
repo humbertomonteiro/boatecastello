@@ -28,7 +28,10 @@ export default function TextIntroduction() {
           </a>
         </div>
         <div data-aos="fade-down" className="introduction-img">
-          <img src={require("../../assets/imgs/girls.jpeg")} alt="" />
+          <img
+            src={require("../../assets/imgs/girls.jpeg")}
+            alt="Imagem de garotas bonitas."
+          />
         </div>
       </div>
     </div>

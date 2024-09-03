@@ -99,7 +99,7 @@
 .event-text .btn {
   background-color: var(--primary);
   color: var(--text);
-  padding: 10px 90px;
+  padding: 10px 50px;
   border-radius: 20px;
   position: relative;
   top: 20px;

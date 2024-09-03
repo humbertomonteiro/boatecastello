@@ -31,7 +31,7 @@ export default function Footer() {
             target="_blank"
             rel="noreferrer"
           >
-            HUMBERTO MONTEIRO
+            HumDev
           </a>
         </p>
       </div>

@@ -20,7 +20,10 @@ export default function Contacts() {
           </a>
         </div>
         <div className="img" data-aos="fade-up">
-          <img src={require("../../assets/imgs/contact.png")} alt="" />
+          <img
+            src={require("../../assets/imgs/contact.png")}
+            alt="Imagem de homem e mulher sensuais."
+          />
         </div>
       </div>
     </main>
